@@ -1,0 +1,201 @@
+<materialsextension name="Christmas by Wolferion" author="Wolferion" description='Christmas tileset for 12.70' client="12.86">
+
+
+
+	<brush name="christmas wreath" type="doodad" server_lookid="6513" draggable="true" on_blocking="false" thickness="10/10">
+		<alternate>
+			<item id="6513" chance="10"/>
+		</alternate>
+		<alternate>
+			<item id="6517" chance="10"/>
+		</alternate>
+	</brush>
+	<brush name="christmas garland" type="doodad" server_lookid="6515" draggable="true" on_blocking="false" thickness="10/10">
+		<alternate>
+			<item id="6515" chance="10"/>
+		</alternate>
+		<alternate>
+			<item id="6519" chance="10"/>
+		</alternate>
+	</brush>
+	<brush name="christmas garland candle" type="doodad" server_lookid="6514" draggable="true" on_blocking="false" thickness="10/10">
+		<alternate>
+			<item id="6514" chance="10"/>
+		</alternate>
+		<alternate>
+			<item id="6518" chance="10"/>
+		</alternate>
+	</brush>
+	<brush name="christmas branch" type="doodad" server_lookid="6489" draggable="true" on_blocking="false" thickness="10/10">
+		<alternate>
+			<item id="6489" chance="10"/>
+		</alternate>
+		<alternate>
+			<item id="6490" chance="10"/>
+		</alternate>
+	</brush>	
+
+	<brush name="festive fireplace on" type="doodad" server_lookid="32890" draggable="true" on_blocking="false" thickness="10/10">
+		<alternate>
+			<item id="32889" chance="10"/>
+		</alternate>
+		<alternate>
+			<item id="32891" chance="10"/>
+		</alternate>
+	</brush>
+	<brush name="festive fireplace off" type="doodad" server_lookid="32889" draggable="true" on_blocking="false" thickness="10/10">
+		<alternate>
+			<item id="32890" chance="10"/>
+		</alternate>
+		<alternate>
+			<item id="32892" chance="10"/>
+		</alternate>
+	</brush>
+	<brush name="festive tree" type="doodad" server_lookid="32893" draggable="true" on_blocking="false" thickness="10/10">
+		<alternate> -- off --
+			<item id="32893" chance="10"/>
+		</alternate>
+		<alternate> -- on --
+			<item id="32894" chance="10"/>
+		</alternate>
+	</brush>
+	<brush name="festive pyramide" type="doodad" server_lookid="32904" draggable="true" on_blocking="false" thickness="10/10">
+		<alternate> -- off --
+			<item id="32904" chance="10"/>
+		</alternate>
+		<alternate> -- on --
+			<item id="32905" chance="10"/>
+		</alternate>
+	</brush>
+	<brush name="festive chair" type="doodad" server_lookid="32897" draggable="true" on_blocking="false" thickness="10/10">
+		<alternate>
+			<item id="32897" chance="10"/>
+		</alternate>
+		<alternate>
+			<item id="32898" chance="10"/>
+		</alternate>
+		<alternate>
+			<item id="32895" chance="10"/>
+		</alternate>
+		<alternate>
+			<item id="32896" chance="10"/>
+		</alternate>
+	</brush>
+	<brush name="festive sleigh" type="doodad" server_lookid="32899" draggable="true" on_blocking="false" thickness="10/10">
+		<alternate>
+			<item id="32899" chance="10"/>
+		</alternate>
+		<alternate>
+			<item id="32900" chance="10"/>
+		</alternate>
+	</brush>
+	<brush name="festive pile of presents" type="doodad" server_lookid="32901" draggable="true" on_blocking="false" thickness="10/10">
+		<alternate>
+			<item id="32901" chance="10"/>
+		</alternate>
+		<alternate>
+			<item id="32902" chance="10"/>
+		</alternate>
+	</brush>
+	<brush name="festive filled shoes" type="doodad" server_lookid="32883" draggable="true" on_blocking="false" thickness="10/10">
+		<alternate>
+			<item id="32883" chance="10"/>
+		</alternate>
+		<alternate>
+			<item id="32884" chance="10"/>
+		</alternate>
+	</brush>
+	<brush name="festive table" type="doodad" server_lookid="32885" draggable="true" on_blocking="false" thickness="10/10">
+		<alternate> -- full --
+			<item id="32885" chance="10"/>
+		</alternate>
+		<alternate> -- half eaten --
+			<item id="32886" chance="10"/>
+		</alternate>
+		<alternate> -- eaten --
+			<item id="32887" chance="10"/>
+		</alternate>
+		<alternate> -- empty --
+			<item id="32888" chance="10"/>
+		</alternate>
+	</brush>
+
+	<brush name="santa's music box" type="doodad" server_lookid="22647" draggable="true" on_blocking="false" thickness="10/10">
+		<alternate> -- off --
+			<item id="22647" chance="10"/>
+		</alternate>
+		<alternate> -- on --
+			<item id="22648" chance="10"/>
+		</alternate>
+	</brush>
+	<brush name="snow globe" type="doodad" server_lookid="22645" draggable="true" on_blocking="false" thickness="10/10">
+		<alternate> -- off --
+			<item id="22645" chance="10"/>
+		</alternate>
+		<alternate> -- on --
+			<item id="22646" chance="10"/>
+		</alternate>
+	</brush>
+
+	<tileset name="Christmas">
+		<doodad>
+		-- furniture --
+			<item id="2334"/>
+			<item id="2105"/>
+			<brush name="festive fireplace on"/>
+			<brush name="festive fireplace off"/>
+			<brush name="festive tree"/>
+			<brush name="festive chair"/>
+			<brush name="festive table"/>
+			<brush name="festive sleigh"/>
+		-- presents --
+			<brush name="festive pile of presents"/>
+			<item id="32903"/>
+			<item fromid="6506" toid="6511"/>	
+			<item id="6497"/>
+		-- wall decoration --
+			<brush name="christmas wreath"/>
+			<brush name="christmas garland"/>
+			<brush name="christmas garland candle"/>
+		-- food --
+			<item id="2688"/>
+			<item id="6501"/>
+			<item id="22644"/>
+		-- hangables --
+			<item fromid="6502" toid="6505"/>
+		-- decoration
+			<brush name="festive pyramide"/>
+			<brush name="festive filled shoes"/>
+			<brush name="santa's music box"/>
+			<brush name="snow globe"/>
+			<brush name="christmas branch"/>
+		-- dolls --
+			<item id="6512"/>
+			<item id="11255"/>
+			<item fromid="22642" toid="22643"/>
+			<item id="24321"/>
+			<item id="27050"/>
+			<item id="35402"/>
+			<item id="38348"/>
+			<item id="25535"/>
+			<item id="30247"/>
+			<item id="32603"/>
+		-- other --
+			<item id="6388"/>
+			<item id="6527"/>
+			<item id="6531"/>
+			<item id="11263"/>
+		</doodad>
+		<raw>
+			<item id="6567"/>
+			<item fromid="22645" toid="22648"/>
+			<item fromid="6489" toid="6490"/>				
+			<item fromid="6513" toid="6515"/>				
+			<item fromid="6517" toid="6519"/>			
+			<item fromid="32883" toid="32905"/>		
+		</raw>
+	</tileset>
+
+
+	
+</materialsextension>

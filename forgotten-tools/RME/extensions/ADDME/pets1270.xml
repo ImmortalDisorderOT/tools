@@ -1,0 +1,404 @@
+<materialsextension name="Pets" author="Wolferion" description='Enjoy' client="12.86">
+
+	<brush name="baby polar bear" type="doodad" server_lookid="35448" draggable="true" on_blocking="true" thickness="10/10">
+		<alternate>		-- sitting --
+			<item id="35448" chance="10"/>
+		</alternate>
+		<alternate>		-- standing --
+			<item id="35446" chance="10"/>
+		</alternate>
+		<alternate>		-- sitting down --
+			<item id="35447" chance="10"/>
+		</alternate>
+		<alternate>		-- standing up --
+			<item id="35449" chance="10"/>
+		</alternate>
+	</brush>
+	<brush name="baby seal" type="doodad" server_lookid="35444" draggable="true" on_blocking="true" thickness="10/10">
+		<alternate>		-- neutral --
+			<item id="35444" chance="10"/>
+		</alternate>
+		<alternate>		-- rolling --
+			<item id="35445" chance="10"/>
+		</alternate>
+	</brush>
+	<brush name="dog house" type="doodad" server_lookid="26353" draggable="true" on_blocking="true" thickness="100/100">
+		<alternate> -- awake --
+			<item id="26353" chance="10"/>
+		</alternate>
+		<alternate> -- going to sleep --
+			<item id="26359" chance="10"/>
+		</alternate>
+		<alternate> -- sleeping --
+			<item id="26364" chance="10"/>
+		</alternate>
+		<alternate> -- waking up --
+			<item id="26365" chance="10"/>
+		</alternate>
+	</brush>
+	<brush name="glowworms" type="doodad" server_lookid="36926" draggable="true" on_blocking="true" thickness="100/100">
+		<alternate> -- on --
+			<item id="36926" chance="10"/>
+		</alternate>
+		<alternate> -- off --
+			<item id="36927" chance="10"/>
+		</alternate>
+	</brush>
+	<brush name="falcon pet" type="doodad" server_lookid="39406" draggable="true" on_blocking="true" thickness="100/100">
+		<alternate> -- neutral --
+			<item id="39406" chance="10"/>
+		</alternate>
+		<alternate> -- in nest --
+			<item id="39410" chance="10"/>
+		</alternate>
+	</brush>
+	<brush name="baby brain squid" type="doodad" server_lookid="35565" draggable="true" on_blocking="true" thickness="100/100">
+		<alternate>
+			<item id="35565" chance="10"/>
+		</alternate>
+		<alternate>
+			<item id="35568" chance="10"/>
+		</alternate>
+	</brush>
+	<brush name="guzzlemaw grub" type="doodad" server_lookid="35563" draggable="true" on_blocking="true" thickness="100/100">
+		<alternate>
+			<item id="35563" chance="10"/>
+		</alternate>
+		<alternate>
+			<item id="35566" chance="10"/>
+		</alternate>
+	</brush>
+	<brush name="baby vulcongra" type="doodad" server_lookid="35564" draggable="true" on_blocking="true" thickness="100/100">
+		<alternate>
+			<item id="35564" chance="10"/>
+		</alternate>
+		<alternate>
+			<item id="35567" chance="10"/>
+		</alternate>
+	</brush>
+	<brush name="baby unicorn" type="doodad" server_lookid="34359" draggable="true" on_blocking="true" thickness="100/100">
+		<alternate>
+			<item id="34359" chance="10"/>
+		</alternate>
+		<alternate>
+			<item id="34360" chance="10"/>
+		</alternate>
+	</brush>
+	<brush name="baby elephant" type="doodad" server_lookid="37809" draggable="true" on_blocking="true" thickness="100/100">
+		<alternate>
+			<item id="37809" chance="10"/>
+		</alternate>
+		<alternate>
+			<item id="37810" chance="10"/>
+		</alternate>
+	</brush>
+	<brush name="baby eagle" type="doodad" server_lookid="34118" draggable="true" on_blocking="true" thickness="100/100">
+		<alternate>
+			<item id="34118" chance="10"/>
+		</alternate>
+		<alternate>
+			<item id="34119" chance="10"/>
+		</alternate>
+	</brush>
+	<brush name="cerberus puppy" type="doodad" server_lookid="34120" draggable="true" on_blocking="true" thickness="100/100">
+		<alternate>
+			<item id="34120" chance="10"/>
+		</alternate>
+		<alternate>
+			<item id="34121" chance="10"/>
+		</alternate>
+	</brush>
+	<brush name="parrot" type="doodad" server_lookid="27088" draggable="true" on_blocking="true" thickness="100/100">
+		<alternate>
+			<item id="27088" chance="10"/>
+		</alternate>
+		<alternate>
+			<item id="27089" chance="10"/>
+		</alternate>
+	</brush>
+	<brush name="baby rotworm" type="doodad" server_lookid="31346" draggable="true" on_blocking="true" thickness="100/100">
+		<alternate>
+			<item id="31346" chance="10"/>
+		</alternate>
+		<alternate>
+			<item id="31347" chance="10"/>
+		</alternate>
+		<alternate>
+			<item id="31348" chance="10"/>
+		</alternate>
+		<alternate>
+			<item id="31349" chance="10"/>
+		</alternate>
+	</brush>
+	<brush name="spider terrarium" type="doodad" server_lookid="28734" draggable="true" on_blocking="true" thickness="100/100">
+		<alternate>
+			<item id="28734" chance="10"/>
+		</alternate>
+		<alternate>
+			<item id="28735" chance="10"/>
+		</alternate>
+		<alternate>
+			<item id="28736" chance="10"/>
+		</alternate>
+	</brush>
+	<brush name="snake terrarium" type="doodad" server_lookid="28825" draggable="true" on_blocking="true" thickness="100/100">
+		<alternate>
+			<item id="28825" chance="10"/>
+		</alternate>
+		<alternate>
+			<item id="28826" chance="10"/>
+		</alternate>
+		<alternate>
+			<item id="28827" chance="10"/>
+		</alternate>
+		<alternate>
+			<item id="28828" chance="10"/>
+		</alternate>
+	</brush>
+	<brush name="chameleon" type="doodad" server_lookid="27869" draggable="true" on_blocking="true" thickness="100/100">
+		<alternate>
+			<item id="27869" chance="10"/>
+		</alternate>
+		<alternate>
+			<item id="27870" chance="10"/>
+		</alternate>
+		<alternate>
+			<item id="27871" chance="10"/>
+		</alternate>
+	</brush>
+	<brush name="hamster wheel" type="doodad" server_lookid="26100" draggable="true" on_blocking="true" thickness="100/100">
+		<alternate>
+			<item id="26100" chance="10"/>
+		</alternate>
+		<alternate>
+			<item id="26101" chance="10"/>
+		</alternate>
+	</brush>
+	<brush name="baby dragon" type="doodad" server_lookid="26098" draggable="true" on_blocking="true" thickness="100/100">
+		<alternate>
+			<item id="26098" chance="10"/>
+		</alternate>
+		<alternate>
+			<item id="26099" chance="10"/>
+		</alternate>
+	</brush>
+	<brush name="baby hedgehog" type="doodad" server_lookid="34336" draggable="true" on_blocking="true" thickness="100/100">
+		<alternate>
+			<item id="34336" chance="10"/>
+		</alternate>
+		<alternate>
+			<item id="34337" chance="10"/>
+		</alternate>
+		<alternate>
+			<item id="34338" chance="10"/>
+		</alternate>
+	</brush>
+	<brush name="monkey" type="doodad" server_lookid="34611" draggable="true" on_blocking="true" thickness="100/100">
+		<alternate>
+			<item id="34611" chance="10"/>
+		</alternate>
+		<alternate>
+			<item id="34612" chance="10"/>
+		</alternate>
+	</brush>
+	<brush name="cat in a basket" type="doodad" server_lookid="26107" draggable="true" on_blocking="true" thickness="100/100">
+		<alternate>
+			<item id="26107" chance="10"/>
+		</alternate>
+		<alternate>
+			<item id="26108" chance="10"/>
+		</alternate>
+	</brush>
+	<brush name="fennec" type="doodad" server_lookid="31350" draggable="true" on_blocking="true" thickness="100/100">
+		<alternate>
+			<item id="31350" chance="10"/>
+		</alternate>
+		<alternate>
+			<item id="31351" chance="10"/>
+		</alternate>
+		<alternate>
+			<item id="31357" chance="10"/>
+		</alternate>
+		<alternate>
+			<item id="31569" chance="10"/>
+		</alternate>
+		<alternate>
+			<item id="31570" chance="10"/>
+		</alternate>
+	</brush>
+	<brush name="black raven" type="doodad" server_lookid="33024" draggable="true" on_blocking="true" thickness="100/100">
+		<alternate>
+			<item id="33024" chance="10"/>
+		</alternate>
+		<alternate>
+			<item id="34007" chance="10"/>
+		</alternate>
+	</brush>
+	<brush name="grey raven" type="doodad" server_lookid="33025" draggable="true" on_blocking="true" thickness="100/100">
+		<alternate>
+			<item id="33025" chance="10"/>
+		</alternate>
+		<alternate>
+			<item id="34008" chance="10"/>
+		</alternate>
+	</brush>
+	<brush name="white raven" type="doodad" server_lookid="33026" draggable="true" on_blocking="true" thickness="100/100">
+		<alternate>
+			<item id="33026" chance="10"/>
+		</alternate>
+		<alternate>
+			<item id="34009" chance="10"/>
+		</alternate>
+	</brush>
+	<brush name="anglerfish lamp" type="doodad" server_lookid="31330" draggable="true" on_blocking="true" thickness="100/100">
+		<alternate>
+			<item id="31330" chance="10"/>
+		</alternate>
+		<alternate>
+			<item id="31331" chance="10"/>
+		</alternate>
+	</brush>
+	<brush name="demon baller" type="doodad" server_lookid="39302" draggable="true" on_blocking="true" thickness="10/10">
+		<alternate>
+			<item id="39302" chance="10"/>
+		</alternate>
+		<alternate>
+			<item id="39303" chance="10"/>
+		</alternate>
+		<alternate>
+			<item id="39304" chance="10"/>
+		</alternate>
+		<alternate>
+			<item id="39305" chance="10"/>
+		</alternate>
+		<alternate>
+			<item id="39306" chance="10"/>
+		</alternate>
+		<alternate>
+			<item id="39307" chance="10"/>
+		</alternate>
+		<alternate>
+			<item id="39308" chance="10"/>
+		</alternate>
+		<alternate>
+			<item id="39309" chance="10"/>
+		</alternate>
+		<alternate>
+			<item id="39310" chance="10"/>
+		</alternate>
+	</brush>
+	<brush name="portable aqueduct" type="doodad" server_lookid="38605" draggable="true" on_blocking="true" thickness="10/10">
+		<alternate>
+			<item id="38605" chance="10"/>
+		</alternate>		
+		<alternate>
+			<item id="38625" chance="10"/>
+		</alternate>
+		<alternate>
+			<item id="38626" chance="10"/>
+		</alternate>
+		<alternate>
+			<item id="38627" chance="10"/>
+		</alternate>
+		<alternate>
+			<item id="38628" chance="10"/>
+		</alternate>		
+		<alternate>
+			<item id="38606" chance="10"/>
+		</alternate>
+		<alternate>
+			<item id="38607" chance="10"/>
+		</alternate>
+		<alternate>
+			<item id="38608" chance="10"/>
+		</alternate>
+	</brush>
+	<brush name="demon pet" type="doodad" server_lookid="28829" draggable="true" on_blocking="true" thickness="10/10">
+		<alternate>
+			<item id="28829" chance="10"/>
+		</alternate>
+		<alternate>
+			<item id="28830" chance="10"/>
+		</alternate>
+		<alternate>
+			<item id="28832" chance="10"/>
+		</alternate>
+		<alternate>
+			<item id="28836" chance="10"/>
+		</alternate>
+		<alternate>
+			<item id="28831" chance="10"/>
+		</alternate>
+		<alternate>
+			<item id="28835" chance="10"/>
+		</alternate>
+	</brush>
+
+	<tileset name="Interior - Pets">
+		<doodad>
+			<brush name="baby dragon"/>
+			<brush name="hamster wheel"/>
+			<brush name="cat in a basket"/>
+			<item id="26347"/>
+			<brush name="dog house"/>
+			<brush name="parrot"/>			
+			<brush name="chameleon"/>
+			<brush name="spider terrarium"/>
+			<brush name="snake terrarium"/>
+			<brush name="demon pet"/>			
+			<brush name="anglerfish lamp"/>			
+			<brush name="baby rotworm"/>			
+			<brush name="fennec"/>
+			<brush name="black raven"/>
+			<brush name="grey raven"/>
+			<brush name="white raven"/>			
+			<brush name="baby eagle"/>			
+			<brush name="cerberus puppy"/>
+			<brush name="baby hedgehog"/>
+			<brush name="baby unicorn"/>
+			<brush name="monkey"/>
+			<brush name="baby seal"/>			
+			<brush name="baby polar bear"/>
+			<brush name="guzzlemaw grub"/>
+			<brush name="baby vulcongra"/>
+			<brush name="baby brain squid"/>
+			<brush name="glowworms"/>			
+			<brush name="baby elephant"/>
+			<brush name="portable aqueduct"/>
+			<brush name="falcon pet"/>
+			<brush name="demon baller"/>
+		</doodad>	
+		<raw>		
+			<item fromid="26098" toid="26101"/>
+			<item fromid="26107" toid="26108"/>		
+			<item id="26347"/>
+			<item id="26353"/>
+			<item id="26359"/>
+			<item fromid="26364" toid="26365"/>			
+			<item fromid="27088" toid="27089"/>
+			<item fromid="27869" toid="27871"/>			
+			<item fromid="28734" toid="28736"/>
+			<item fromid="28825" toid="28832"/>			
+			<item fromid="28835" toid="28836"/>			
+			<item fromid="31330" toid="31331"/>
+			<item fromid="31346" toid="31351"/>
+			<item id="31357"/>
+			<item fromid="31569" toid="31570"/>
+			<item fromid="33024" toid="33026"/>
+			<item fromid="34007" toid="34009"/>
+			<item fromid="34118" toid="34121"/>
+			<item fromid="34336" toid="34338"/>
+			<item fromid="34359" toid="34360"/>
+			<item fromid="34611" toid="34612"/>
+			<item fromid="35444" toid="35449"/>
+			<item fromid="35563" toid="35568"/>
+			<item fromid="36926" toid="36927"/>
+			<item fromid="37809" toid="37810"/>
+			<item fromid="38605" toid="38608"/>
+			<item fromid="38625" toid="38628"/>
+			<item fromid="39406" toid="39410"/>
+			<item id="39412"/>
+			<item fromid="39302" toid="39310"/>
+		</raw>
+	</tileset>
+</materialsextension>

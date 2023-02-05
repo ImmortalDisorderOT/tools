@@ -1,0 +1,142 @@
+<materialsextension name="Version 12 teleports pack" author="Zbizu" description='"I hate portals." - Geralt, Witcher 3' client="12.86">
+	<brush name="rift portal (big)" type="doodad" server_lookid="25810" draggable="true" on_blocking="true" thickness="100/100">
+		<composite chance="100">
+			<tile x="-1" y="-1"> <item id="25814"/> </tile>
+			<tile x="0" y="-1"> <item id="25812"/> </tile>
+			<tile x="1" y="-1"> <item id="25813"/> </tile>
+			<tile x="-1" y="0"> <item id="25818"/> </tile>
+			<tile x="0" y="0"> <item id="25810"/> </tile>
+			<tile x="1" y="0"> <item id="25811"/> </tile>
+			<tile x="-1" y="1"> <item id="25817"/> </tile>
+			<tile x="0" y="1"> <item id="25815"/> </tile>
+			<tile x="1" y="1"> <item id="25816"/> </tile>
+		</composite>
+	</brush>
+	
+	<brush name="energy gate" type="doodad" server_lookid="11796" draggable="true" on_blocking="false" thickness="100/100">
+		<alternate> <item id="11796" chance="1"/> </alternate>
+		<alternate> <item id="11798" chance="1"/> </alternate>
+	</brush>
+	
+	<brush name="energy gate (inactive)" type="doodad" server_lookid="12509" draggable="true" on_blocking="false" thickness="100/100">
+		<alternate> <item id="12509" chance="1"/> </alternate>
+		<alternate> <item id="12510" chance="1"/> </alternate>
+	</brush>
+	
+	<brush name="magic portal (not walkable)" type="doodad" server_lookid="19598" draggable="false" on_blocking="true" thickness="100/100">
+		<alternate>
+			<composite chance="100">
+				<tile x="0" y="0"> <item id="19598"/> </tile>
+				<tile x="1" y="0"> <item id="19600"/> </tile>
+			</composite>
+		</alternate>
+		<alternate>
+			<composite chance="100">
+				<tile x="0" y="0"> <item id="19599"/> </tile>
+				<tile x="0" y="1"> <item id="19601"/> </tile>
+			</composite>
+		</alternate>
+	</brush>
+	
+	<brush name="shaper gate (gray)" type="doodad" server_lookid="27703" draggable="true" on_blocking="false" thickness="100/100">
+		<alternate> <item id="27703" chance="1"/> </alternate>
+		<alternate> <item id="27704" chance="1"/> </alternate>
+	</brush>
+	
+	<brush name="shaper gate (green)" type="doodad" server_lookid="27705" draggable="true" on_blocking="false" thickness="100/100">
+		<alternate> <item id="27705" chance="1"/> </alternate>
+		<alternate> <item id="27706" chance="1"/> </alternate>
+	</brush>
+	
+	<brush name="shaper gate (violet)" type="doodad" server_lookid="27707" draggable="true" on_blocking="false" thickness="100/100">
+		<alternate> <item id="27707" chance="1"/> </alternate>
+		<alternate> <item id="27708" chance="1"/> </alternate>
+	</brush>
+	
+	<brush name="shaper gate (orange)" type="doodad" server_lookid="27709" draggable="true" on_blocking="false" thickness="100/100">
+		<alternate> <item id="27709" chance="1"/> </alternate>
+		<alternate> <item id="27710" chance="1"/> </alternate>
+	</brush>
+	
+	<brush name="shaper gate (yellow)" type="doodad" server_lookid="27711" draggable="true" on_blocking="false" thickness="100/100">
+		<alternate> <item id="27711" chance="1"/> </alternate>
+		<alternate> <item id="27712" chance="1"/> </alternate>
+	</brush>
+	
+	<brush name="shaper gate (blue)" type="doodad" server_lookid="27713" draggable="true" on_blocking="false" thickness="100/100">
+		<alternate> <item id="27713" chance="1"/> </alternate>
+		<alternate> <item id="27714" chance="1"/> </alternate>
+	</brush>
+	
+	<brush name="surreal stairs (teleporter)" type="doodad" server_lookid="22476" draggable="true" on_blocking="false" thickness="100/100">
+		<alternate> <item id="22476" chance="1"/> </alternate>
+		<alternate> <item id="22477" chance="1"/> </alternate>
+	</brush>
+	
+	<tileset name="Portals">
+		<terrain>
+			<!-- classic tp and recolors -->
+			<item id="1387"/>
+			<item id="36767"/>
+			<item id="39656"/>
+			<item id="39657"/>
+			<item id="25417"/>
+			
+			<!-- flames -->
+			<item id="1397"/>
+			<item id="36825"/>
+
+			<!-- ice whirl -->
+			<item id="9110"/>
+			
+			<!-- gnomegate -->
+			<item id="17868"/>
+			<item id="21721"/>
+			
+			<!-- water vortex and recolors -->
+			<item id="8632"/>
+			<item id="28373"/>
+			<item id="26139"/>
+			<item id="25550"/>
+			<item id="26140"/>
+			<item id="26125"/>
+			<item id="26138"/>
+			<item id="26126"/>
+			<item id="26127"/>
+			<brush name="rift portal (big)"/>
+			
+			<!-- roshamuul -->
+			<item id="22133"/>
+			
+			<!-- campfires recolor -->
+			<item id="24732"/>
+			<item id="24733"/>
+			
+			<!-- rise of devovorga -->
+			<brush name="energy gate"/>
+			<brush name="energy gate (inactive)"/>
+			
+			<!-- shapers -->
+			<brush name="shaper gate (gray)"/>
+			<brush name="shaper gate (green)"/>
+			<brush name="shaper gate (violet)"/>
+			<brush name="shaper gate (orange)"/>
+			<brush name="shaper gate (yellow)"/>
+			<brush name="shaper gate (blue)"/>
+			
+			<!-- soul war -->
+			<item id="35635"/>
+			<item fromid="35660" toid="35663"/>
+			
+			<!-- elven court -->
+			<item id="32635"/>
+			<item id="32636"/>
+			
+			<!-- eclesius -->
+			<brush name="magic portal (not walkable)"/>
+			
+			<!-- nightmare isles -->
+			<brush name="surreal stairs (teleporter)"/>
+		</terrain>
+	</tileset>
+</materialsextension>
